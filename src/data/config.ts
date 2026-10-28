@@ -7,5 +7,5 @@ export const config = {
   github: 'https://github.com/Ellae90',
   location: { en: 'Makkah, Saudi Arabia', ar: 'مكة المكرمة، المملكة العربية السعودية' },
   // CV file served from /public/cv. Review before publishing: it contains phone numbers.
-  cvFile: '/cv/Elaf_AlGhamdi_CV.pdf',
+  cvFile: `${import.meta.env.BASE_URL}cv/Elaf_AlGhamdi_CV.pdf`,
 };
